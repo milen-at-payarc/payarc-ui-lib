@@ -54,7 +54,7 @@
     "build-storybook": "storybook build"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/milen-at-payarc"
+    "registry": "https://registry.npmjs.org/"
   },
   "name": "@milen-at-payarc/payarc-ui-lib",
   "description": "Payarc UI Library",
