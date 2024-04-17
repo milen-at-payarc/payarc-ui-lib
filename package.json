@@ -62,5 +62,11 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/milen-at-payarc"
   },
-  "name": "@milen-at-payarc/payarc-ui-lib"
+  "name": "@milen-at-payarc/payarc-ui-lib",
+  "description": "Payarc UI Library",
+  "version": "0.0.1",
+  "engines": {
+    "node": "20.10.0",
+    "npm": "10.2.3"
+  }
 }
