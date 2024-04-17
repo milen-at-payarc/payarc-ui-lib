@@ -60,7 +60,7 @@
     }
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@{USER_NAME}"
+    "registry": "https://npm.pkg.github.com/milen-at-payarc"
   },
   "name": "milen-at-payarc/payarc-ui-lib"
 }
