@@ -51,21 +51,14 @@
     "test-watch": "vitest",
     "test:ui": "vitest --ui",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "lint-staged": {
-      "*.{ts,tsx}": [
-        "npm run format",
-        "npm run lint",
-        "npm run test"
-      ]
-    }
+    "build-storybook": "storybook build"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/milen-at-payarc"
   },
-  "name": "@milen-at-payarc/payarc-ui-lib",
+  "name": "Payarc UI Lib",
   "description": "Payarc UI Library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "node": "20.10.0",
     "npm": "10.2.3"
