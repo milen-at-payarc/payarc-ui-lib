@@ -62,5 +62,5 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@{USER_NAME}"
   },
-  "name": "@{milen-at-payarc}/{payarc-ui-lib}"
+  "name": "milen-at-payarc/payarc-ui-lib"
 }
