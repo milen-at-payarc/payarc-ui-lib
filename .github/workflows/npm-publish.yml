@@ -21,7 +21,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Publish to npm
-        run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_SECRET}},
+      - name: Config npm
+        run: npm config ls
+
+      # - name: Publish to npm
+      #   run: npm publish --access public
+      #   env:
+      #     NPM_AUTH_TOKEN: ${{secrets.NPM_SECRET}},
+      - name: run forest
+        uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
