@@ -31,4 +31,4 @@ jobs:
       - name: run forest
         uses: JS-DevTools/npm-publish@v3
         with:
-          token: ${{ secrets.NPM_SECRET }}
+          token: ${{ secrets.NPM_AUTOMATION }}
